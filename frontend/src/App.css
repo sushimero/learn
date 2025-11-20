@@ -1,0 +1,13 @@
+.Todobar {
+  display: flex; /* Flexboxで要素を横並びにする */
+  justify-content: space-around;
+  align-items: center; /* 垂直方向の中央揃え */
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: white;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 200%;
+}
