@@ -19,7 +19,7 @@ var db *gorm.DB
 func main() {
 	var err error
 	// 2. データベース接続 (SQLite)
-	db, err = gorm.Open(sqlite.Open("test.db"), &gorm.Config{})
+	db, err = gorm.Open(sqlite.Open("Todo.db"), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect database")
 	}
